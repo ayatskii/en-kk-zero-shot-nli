@@ -1,0 +1,63 @@
+model: /home/ayatskii/.cache/huggingface/hub/models--bartowski--google_gemma-4-26B-A4B-it-GGUF/snapshots/10f3b41bcf8d3047f4e136e7197ffc2dd1654c9d/google_gemma-4-26B-A4B-it-Q4_K_M.gguf | output name: gemma-4-26B-A4B-it-Q4_K_M | mode: score
+prompt tail: 'pothesis, contradict it, or is it neutral? Answer with exactly one word: entailment, neutral, or contradiction.<turn|>\n<|turn>model\n<|channel>thought\n<channel|>'
+gemma-4-26B-A4B-it-Q4_K_M: 50/1968 items, 85s
+gemma-4-26B-A4B-it-Q4_K_M: 100/1968 items, 285s
+gemma-4-26B-A4B-it-Q4_K_M: 150/1968 items, 709s
+gemma-4-26B-A4B-it-Q4_K_M: 200/1968 items, 1331s
+gemma-4-26B-A4B-it-Q4_K_M: 250/1968 items, 2002s
+gemma-4-26B-A4B-it-Q4_K_M: 300/1968 items, 2688s
+gemma-4-26B-A4B-it-Q4_K_M: 350/1968 items, 3377s
+gemma-4-26B-A4B-it-Q4_K_M: 400/1968 items, 4062s
+gemma-4-26B-A4B-it-Q4_K_M: 450/1968 items, 4753s
+gemma-4-26B-A4B-it-Q4_K_M: 500/1968 items, 5443s
+gemma-4-26B-A4B-it-Q4_K_M: 550/1968 items, 6138s
+gemma-4-26B-A4B-it-Q4_K_M: 600/1968 items, 6822s
+gemma-4-26B-A4B-it-Q4_K_M: 650/1968 items, 7508s
+gemma-4-26B-A4B-it-Q4_K_M: 700/1968 items, 8189s
+gemma-4-26B-A4B-it-Q4_K_M: 750/1968 items, 8874s
+gemma-4-26B-A4B-it-Q4_K_M: 800/1968 items, 9565s
+gemma-4-26B-A4B-it-Q4_K_M: 850/1968 items, 10268s
+gemma-4-26B-A4B-it-Q4_K_M: 900/1968 items, 10971s
+gemma-4-26B-A4B-it-Q4_K_M: 950/1968 items, 11672s
+gemma-4-26B-A4B-it-Q4_K_M: 1000/1968 items, 12373s
+gemma-4-26B-A4B-it-Q4_K_M: 1050/1968 items, 13091s
+gemma-4-26B-A4B-it-Q4_K_M: 1100/1968 items, 13804s
+gemma-4-26B-A4B-it-Q4_K_M: 1150/1968 items, 14516s
+gemma-4-26B-A4B-it-Q4_K_M: 1200/1968 items, 15228s
+gemma-4-26B-A4B-it-Q4_K_M: 1250/1968 items, 15944s
+gemma-4-26B-A4B-it-Q4_K_M: 1300/1968 items, 16658s
+gemma-4-26B-A4B-it-Q4_K_M: 1350/1968 items, 17370s
+gemma-4-26B-A4B-it-Q4_K_M: 1400/1968 items, 18082s
+gemma-4-26B-A4B-it-Q4_K_M: 1450/1968 items, 18792s
+gemma-4-26B-A4B-it-Q4_K_M: 1500/1968 items, 19501s
+gemma-4-26B-A4B-it-Q4_K_M: 1550/1968 items, 20209s
+gemma-4-26B-A4B-it-Q4_K_M: 1600/1968 items, 20920s
+gemma-4-26B-A4B-it-Q4_K_M: 1650/1968 items, 21627s
+gemma-4-26B-A4B-it-Q4_K_M: 1700/1968 items, 22331s
+gemma-4-26B-A4B-it-Q4_K_M: 1750/1968 items, 23041s
+gemma-4-26B-A4B-it-Q4_K_M: 1800/1968 items, 23749s
+gemma-4-26B-A4B-it-Q4_K_M: 1850/1968 items, 24457s
+gemma-4-26B-A4B-it-Q4_K_M: 1900/1968 items, 25161s
+gemma-4-26B-A4B-it-Q4_K_M: 1950/1968 items, 25868s
+{
+  "model": "/home/ayatskii/.cache/huggingface/hub/models--bartowski--google_gemma-4-26B-A4B-it-GGUF/snapshots/10f3b41bcf8d3047f4e136e7197ffc2dd1654c9d/google_gemma-4-26B-A4B-it-Q4_K_M.gguf",
+  "backend": "llama.cpp (llama-server)",
+  "items": 1968,
+  "seconds": 26121.4,
+  "quantization": "Q4_K_M",
+  "mode": "score",
+  "harmony_final_prefill": false,
+  "decoding": "constrained first-token argmax over server log-probs (deterministic)",
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "reasoning_effort": "low"
+  },
+  "label_first_token_ids": {
+    "entailment": 533,
+    "neutral": 45258,
+    "contradiction": 226770
+  },
+  "server_build": "b1-9febe63",
+  "python": "3.14.7",
+  "items_with_label_outside_top_n": 648
+}

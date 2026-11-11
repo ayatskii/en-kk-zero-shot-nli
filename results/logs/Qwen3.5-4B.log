@@ -1,0 +1,43 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [07:12<07:12, 432.19s/it]Fetching 2 files: 100%|██████████| 2/2 [07:12<00:00, 178.09s/it]Fetching 2 files: 100%|██████████| 2/2 [07:12<00:00, 216.20s/it]
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:   0%|          | 1/723 [00:00<04:58,  2.42it/s]Loading weights:   2%|▏         | 12/723 [00:00<00:23, 30.01it/s]Loading weights:   4%|▎         | 27/723 [00:00<00:11, 60.37it/s]Loading weights:   6%|▌         | 42/723 [00:00<00:08, 80.62it/s]Loading weights:   8%|▊         | 61/723 [00:00<00:06, 104.53it/s]Loading weights:  11%|█         | 76/723 [00:00<00:05, 114.71it/s]Loading weights:  13%|█▎        | 93/723 [00:01<00:05, 125.26it/s]Loading weights:  15%|█▍        | 107/723 [00:01<00:05, 121.16it/s]Loading weights:  18%|█▊        | 128/723 [00:01<00:04, 144.21it/s]Loading weights:  20%|██        | 145/723 [00:01<00:03, 149.74it/s]Loading weights:  22%|██▏       | 161/723 [00:01<00:04, 137.58it/s]Loading weights:  25%|██▌       | 182/723 [00:01<00:03, 153.25it/s]Loading weights:  28%|██▊       | 199/723 [00:01<00:03, 149.81it/s]Loading weights:  30%|██▉       | 215/723 [00:01<00:03, 140.95it/s]Loading weights:  33%|███▎      | 237/723 [00:02<00:03, 158.89it/s]Loading weights:  35%|███▌      | 254/723 [00:02<00:03, 151.04it/s]Loading weights:  38%|███▊      | 276/723 [00:02<00:02, 168.38it/s]Loading weights:  41%|████      | 294/723 [00:02<00:02, 155.16it/s]Loading weights:  43%|████▎     | 310/723 [00:02<00:02, 155.23it/s]Loading weights:  46%|████▌     | 330/723 [00:02<00:02, 159.90it/s]Loading weights:  48%|████▊     | 347/723 [00:02<00:03, 112.40it/s]Loading weights:  50%|█████     | 364/723 [00:02<00:03, 118.93it/s]Loading weights:  53%|█████▎    | 383/723 [00:03<00:02, 134.31it/s]Loading weights:  55%|█████▌    | 399/723 [00:03<00:02, 132.72it/s]Loading weights:  58%|█████▊    | 417/723 [00:03<00:02, 136.74it/s]Loading weights:  67%|██████▋   | 482/723 [00:03<00:00, 263.00it/s]Loading weights:  80%|███████▉  | 578/723 [00:03<00:00, 444.06it/s]Loading weights:  94%|█████████▍| 682/723 [00:03<00:00, 601.91it/s]Loading weights: 100%|██████████| 723/723 [00:03<00:00, 195.11it/s]
+prompt tail: 'Answer with exactly one word: entailment, neutral, or contradiction.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Qwen/Qwen3.5-4B: 100/1968 items, 23s
+Qwen/Qwen3.5-4B: 200/1968 items, 46s
+Qwen/Qwen3.5-4B: 300/1968 items, 69s
+Qwen/Qwen3.5-4B: 400/1968 items, 92s
+Qwen/Qwen3.5-4B: 500/1968 items, 117s
+Qwen/Qwen3.5-4B: 600/1968 items, 142s
+Qwen/Qwen3.5-4B: 700/1968 items, 165s
+Qwen/Qwen3.5-4B: 800/1968 items, 188s
+Qwen/Qwen3.5-4B: 900/1968 items, 214s
+Qwen/Qwen3.5-4B: 1000/1968 items, 238s
+Qwen/Qwen3.5-4B: 1100/1968 items, 264s
+Qwen/Qwen3.5-4B: 1200/1968 items, 289s
+Qwen/Qwen3.5-4B: 1300/1968 items, 314s
+Qwen/Qwen3.5-4B: 1400/1968 items, 339s
+Qwen/Qwen3.5-4B: 1500/1968 items, 364s
+Qwen/Qwen3.5-4B: 1600/1968 items, 388s
+Qwen/Qwen3.5-4B: 1700/1968 items, 413s
+Qwen/Qwen3.5-4B: 1800/1968 items, 437s
+Qwen/Qwen3.5-4B: 1900/1968 items, 463s
+{
+  "model": "Qwen/Qwen3.5-4B",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 479.2,
+  "dtype": "bfloat16",
+  "quantization": "4bit",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 305,
+    "neutral": 57555,
+    "contradiction": 7965
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

@@ -1,0 +1,16 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "items": 300,
+  "seconds": 466.7,
+  "dtype": "bfloat16",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 293,
+    "neutral": 30627,
+    "contradiction": 2651
+  },
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "python": "3.13.16",
+  "cpu_threads": 2
+}

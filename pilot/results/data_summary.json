@@ -1,0 +1,24 @@
+{
+  "source_file": "data/xnli.test.kk.csv",
+  "items_in_source": 2000,
+  "label_distribution_source": {
+    "neutral": 671,
+    "entailment": 670,
+    "contradiction": 659
+  },
+  "flagged_low_cyrillic": 32,
+  "flagged_length_outlier": 0,
+  "flagged_untranslated": 0,
+  "excluded_total": 32,
+  "eligible_after_exclusion": 1968,
+  "pilot_sample_size": 300,
+  "pilot_label_distribution": {
+    "contradiction": 100,
+    "neutral": 100,
+    "entailment": 100
+  },
+  "mean_len_ratio_kk_over_en_chars": 1.002,
+  "mean_words_en": 27.38,
+  "mean_words_kk": 20.88,
+  "seed": 42
+}

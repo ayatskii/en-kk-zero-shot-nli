@@ -1,0 +1,97 @@
+{
+ "n": 40,
+ "counts": {
+  "A": 4,
+  "B": 13,
+  "C": 11,
+  "D": 3,
+  "E": 9
+ },
+ "share": {
+  "A": 0.1,
+  "B": 0.325,
+  "C": 0.275,
+  "D": 0.075,
+  "E": 0.225
+ },
+ "translation_related_A_B": 17,
+ "faithful_C_D_E": 23,
+ "kk_prediction_by_code": {
+  "A": {
+   "contradiction": 1,
+   "entailment": 0,
+   "neutral": 3
+  },
+  "B": {
+   "contradiction": 3,
+   "entailment": 1,
+   "neutral": 9
+  },
+  "C": {
+   "contradiction": 0,
+   "entailment": 0,
+   "neutral": 11
+  },
+  "D": {
+   "contradiction": 2,
+   "entailment": 0,
+   "neutral": 1
+  },
+  "E": {
+   "contradiction": 7,
+   "entailment": 2,
+   "neutral": 0
+  }
+ },
+ "gold_by_code": {
+  "A": {
+   "contradiction": 1,
+   "entailment": 3,
+   "neutral": 0
+  },
+  "B": {
+   "contradiction": 4,
+   "entailment": 7,
+   "neutral": 2
+  },
+  "C": {
+   "contradiction": 6,
+   "entailment": 5,
+   "neutral": 0
+  },
+  "D": {
+   "contradiction": 0,
+   "entailment": 2,
+   "neutral": 1
+  },
+  "E": {
+   "contradiction": 1,
+   "entailment": 1,
+   "neutral": 7
+  }
+ },
+ "gold_to_pred": {
+  "contradiction": {
+   "contradiction": 0,
+   "entailment": 2,
+   "neutral": 10
+  },
+  "entailment": {
+   "contradiction": 4,
+   "entailment": 0,
+   "neutral": 14
+  },
+  "neutral": {
+   "contradiction": 9,
+   "entailment": 1,
+   "neutral": 0
+  }
+ },
+ "mean_other_llms_flipping_by_code": {
+  "A": 3.75,
+  "B": 3.23,
+  "C": 3.64,
+  "D": 3.0,
+  "E": 2.22
+ }
+}

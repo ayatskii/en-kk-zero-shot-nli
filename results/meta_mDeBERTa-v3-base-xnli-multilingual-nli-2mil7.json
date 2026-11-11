@@ -1,0 +1,18 @@
+{
+  "model": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "backend": "transformers (NLI classifier)",
+  "items": 1968,
+  "seconds": 6.2,
+  "dtype": "float32",
+  "quantization": "none (fp32)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "argmax over NLI classification head (deterministic)",
+  "id2label": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7"
+}

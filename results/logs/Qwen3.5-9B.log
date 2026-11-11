@@ -1,0 +1,47 @@
+Loading weights:   0%|          | 0/760 [00:00<?, ?it/s]Loading weights:   0%|          | 1/760 [00:00<09:24,  1.35it/s]Loading weights:   2%|▏         | 12/760 [00:00<00:40, 18.63it/s]Loading weights:   2%|▎         | 19/760 [00:00<00:28, 26.37it/s]Loading weights:   4%|▎         | 28/760 [00:01<00:20, 36.42it/s]Loading weights:   5%|▌         | 40/760 [00:01<00:13, 53.60it/s]Loading weights:   6%|▋         | 49/760 [00:01<00:15, 45.98it/s]Loading weights:   8%|▊         | 63/760 [00:01<00:11, 63.10it/s]Loading weights:   9%|▉         | 72/760 [00:01<00:10, 63.47it/s]Loading weights:  11%|█         | 81/760 [00:01<00:10, 63.13it/s]Loading weights:  12%|█▏        | 94/760 [00:02<00:09, 72.68it/s]Loading weights:  14%|█▎        | 103/760 [00:02<00:10, 63.39it/s]Loading weights:  16%|█▌        | 118/760 [00:02<00:07, 80.77it/s]Loading weights:  17%|█▋        | 128/760 [00:02<00:07, 82.06it/s]Loading weights:  18%|█▊        | 138/760 [00:02<00:08, 74.99it/s]Loading weights:  19%|█▉        | 148/760 [00:02<00:08, 75.68it/s]Loading weights:  21%|██        | 157/760 [00:02<00:08, 70.31it/s]Loading weights:  23%|██▎       | 172/760 [00:02<00:07, 83.47it/s]Loading weights:  24%|██▍       | 182/760 [00:03<00:06, 86.24it/s]Loading weights:  25%|██▌       | 191/760 [00:03<00:08, 65.23it/s]Loading weights:  26%|██▌       | 199/760 [00:03<00:09, 60.31it/s]Loading weights:  27%|██▋       | 206/760 [00:03<00:10, 51.38it/s]Loading weights:  29%|██▉       | 221/760 [00:03<00:08, 67.24it/s]Loading weights:  30%|███       | 229/760 [00:03<00:08, 63.06it/s]Loading weights:  31%|███       | 236/760 [00:04<00:08, 60.91it/s]Loading weights:  32%|███▏      | 243/760 [00:04<00:12, 42.49it/s]Loading weights:  33%|███▎      | 253/760 [00:04<00:11, 45.54it/s]Loading weights:  34%|███▍      | 259/760 [00:05<00:30, 16.18it/s]Loading weights:  36%|███▌      | 274/760 [00:05<00:18, 26.47it/s]Loading weights:  37%|███▋      | 281/760 [00:06<00:16, 28.55it/s]Loading weights:  39%|███▊      | 293/760 [00:06<00:12, 37.59it/s]Loading weights:  40%|████      | 305/760 [00:06<00:09, 48.45it/s]Loading weights:  41%|████      | 313/760 [00:06<00:10, 40.89it/s]Loading weights:  43%|████▎     | 327/760 [00:06<00:07, 54.17it/s]Loading weights:  44%|████▍     | 335/760 [00:06<00:08, 49.50it/s]Loading weights:  45%|████▌     | 345/760 [00:07<00:07, 57.89it/s]Loading weights:  47%|████▋     | 355/760 [00:07<00:06, 63.74it/s]Loading weights:  48%|████▊     | 363/760 [00:07<00:06, 60.26it/s]Loading weights:  49%|████▉     | 371/760 [00:07<00:06, 58.93it/s]Loading weights:  51%|█████     | 384/760 [00:07<00:05, 69.68it/s]Loading weights:  52%|█████▏    | 394/760 [00:07<00:04, 74.53it/s]Loading weights:  53%|█████▎    | 402/760 [00:07<00:05, 65.59it/s]Loading weights:  54%|█████▍    | 412/760 [00:08<00:04, 70.10it/s]Loading weights:  55%|█████▌    | 420/760 [00:08<00:05, 57.73it/s]Loading weights:  60%|██████    | 457/760 [00:08<00:02, 123.50it/s]Loading weights:  70%|██████▉   | 529/760 [00:08<00:00, 258.95it/s]Loading weights:  79%|███████▉  | 603/760 [00:08<00:00, 374.84it/s]Loading weights:  90%|█████████ | 685/760 [00:08<00:00, 484.95it/s]Loading weights:  99%|█████████▉| 753/760 [00:08<00:00, 531.02it/s]Loading weights: 100%|██████████| 760/760 [00:08<00:00, 86.71it/s] 
+Some parameters are on the meta device because they were offloaded to the cpu.
+prompt tail: 'Answer with exactly one word: entailment, neutral, or contradiction.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Qwen/Qwen3.5-9B: 100/1968 items, 36s
+Qwen/Qwen3.5-9B: 200/1968 items, 72s
+Qwen/Qwen3.5-9B: 300/1968 items, 107s
+Qwen/Qwen3.5-9B: 400/1968 items, 143s
+Qwen/Qwen3.5-9B: 500/1968 items, 181s
+Qwen/Qwen3.5-9B: 600/1968 items, 220s
+Qwen/Qwen3.5-9B: 700/1968 items, 255s
+Qwen/Qwen3.5-9B: 800/1968 items, 292s
+Qwen/Qwen3.5-9B: 900/1968 items, 331s
+Qwen/Qwen3.5-9B: 1000/1968 items, 369s
+Qwen/Qwen3.5-9B: 1100/1968 items, 408s
+Qwen/Qwen3.5-9B: 1200/1968 items, 447s
+Qwen/Qwen3.5-9B: 1300/1968 items, 486s
+Qwen/Qwen3.5-9B: 1400/1968 items, 525s
+Qwen/Qwen3.5-9B: 1500/1968 items, 563s
+Qwen/Qwen3.5-9B: 1600/1968 items, 601s
+Qwen/Qwen3.5-9B: 1700/1968 items, 638s
+Qwen/Qwen3.5-9B: 1800/1968 items, 676s
+Qwen/Qwen3.5-9B: 1900/1968 items, 715s
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 741.1,
+  "dtype": "bfloat16",
+  "quantization": "4bit",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_offloaded_modules": [
+    "model.language_model.embed_tokens"
+  ],
+  "peak_vram_gb": 5.63,
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 305,
+    "neutral": 57555,
+    "contradiction": 7965
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

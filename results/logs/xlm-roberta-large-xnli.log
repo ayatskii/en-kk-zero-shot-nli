@@ -1,0 +1,29 @@
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 15521.00it/s]
+[transformers] [1mXLMRobertaForSequenceClassification LOAD REPORT[0m from: joeddav/xlm-roberta-large-xnli
+Key                         | Status     |  | 
+----------------------------+------------+--+-
+roberta.pooler.dense.bias   | UNEXPECTED |  | 
+roberta.pooler.dense.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+joeddav/xlm-roberta-large-xnli: en done, 15s
+joeddav/xlm-roberta-large-xnli: kk done, 32s
+{
+  "model": "joeddav/xlm-roberta-large-xnli",
+  "backend": "transformers (NLI classifier)",
+  "items": 1968,
+  "seconds": 32.4,
+  "dtype": "float32",
+  "quantization": "none (fp32)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "argmax over NLI classification head (deterministic)",
+  "id2label": {
+    "0": "contradiction",
+    "1": "neutral",
+    "2": "entailment"
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7"
+}

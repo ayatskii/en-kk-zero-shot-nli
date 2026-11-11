@@ -1,0 +1,19 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 142.1,
+  "dtype": "bfloat16",
+  "quantization": "none (bf16)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 293,
+    "neutral": 30627,
+    "contradiction": 2651
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

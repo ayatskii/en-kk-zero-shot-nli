@@ -1,0 +1,56 @@
+{
+  "Qwen2.5-0.5B-Instruct": {
+    "mcnemar_p_holm_one_sided": 2.7836541327264805e-19,
+    "kk_vs_chance_p": 0.9016249307401399,
+    "en_vs_chance_p": 5.948593427773215e-28,
+    "above_chance_retention": -0.10752688172043008
+  },
+  "Qwen2.5-1.5B-Instruct": {
+    "mcnemar_p_holm_one_sided": 2.6701897092617296e-20,
+    "kk_vs_chance_p": 0.0004662332447931218,
+    "en_vs_chance_p": 1.9246122378829303e-48,
+    "above_chance_retention": 0.2258064516129033
+  },
+  "SmolLM2-1.7B-Instruct": {
+    "mcnemar_p_holm_one_sided": 1.6526882366030282e-05,
+    "kk_vs_chance_p": 0.5217025910938239,
+    "en_vs_chance_p": 0.00012394042706809658,
+    "above_chance_retention": 0.0
+  },
+  "gap_diff_qwen05_minus_qwen15": {
+    "point": 0.023333333333333317,
+    "CI95": [
+      -0.0666666666666666,
+      0.1133333333333334
+    ]
+  },
+  "examples": [
+    {
+      "xnli_id": 3380,
+      "gold": "contradiction",
+      "pred_kk": "entailment",
+      "premise_en": "I do not believe the possible recon value outweighs the risk of possible program termination when the stakes are raised by the Taliban parading a charred Predator in front of CNN, he wrote.",
+      "hypothesis_en": "The Taliban was shown fleeing from the Predator on CNN.",
+      "premise_kk": "Талибандар CNN алдында күйіп кеткен жыртқышты шеруге көтерген кезде, ықтимал барлау құны бағдарламаны тоқтату қаупінен асып түсетініне сенбеймін, деп жазды ол.",
+      "hypothesis_kk": "CNN арнасында Талибанның Жыртқыштан қашып бара жатқаны көрсетілді."
+    },
+    {
+      "xnli_id": 2788,
+      "gold": "contradiction",
+      "pred_kk": "entailment",
+      "premise_en": "The employer and employee contributions are generally calculated in the same way",
+      "hypothesis_en": "There are two different methods of calculating the employer and employee contributions.",
+      "premise_kk": "Жұмыс беруші мен қызметкердің үлестері әдетте бірдей есептеледі",
+      "hypothesis_kk": "Жұмыс беруші мен қызметкердің үлестерін есептеудің екі түрлі әдісі бар."
+    },
+    {
+      "xnli_id": 504,
+      "gold": "neutral",
+      "pred_kk": "entailment",
+      "premise_en": "yeah it's real nice has it been raining",
+      "hypothesis_en": "I do not mind the rain.",
+      "premise_kk": "иә, жаңбыр жауғаны өте жақсы",
+      "hypothesis_kk": "Жаңбырға қарсы емеспін."
+    }
+  ]
+}

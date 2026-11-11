@@ -1,0 +1,7 @@
+# Analysis stage: analyze.py, extra_stats.py, a4_analysis.py, a4_error_figure.py (no GPU needed)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+statsmodels==0.15.0
+matplotlib==3.11.2

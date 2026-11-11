@@ -1,0 +1,84 @@
+Qwen/Qwen2.5-0.5B-Instruct: 25/300 items, 16s
+Qwen/Qwen2.5-0.5B-Instruct: 50/300 items, 31s
+Qwen/Qwen2.5-0.5B-Instruct: 75/300 items, 46s
+Qwen/Qwen2.5-0.5B-Instruct: 100/300 items, 61s
+Qwen/Qwen2.5-0.5B-Instruct: 125/300 items, 77s
+Qwen/Qwen2.5-0.5B-Instruct: 150/300 items, 92s
+Qwen/Qwen2.5-0.5B-Instruct: 175/300 items, 106s
+Qwen/Qwen2.5-0.5B-Instruct: 200/300 items, 120s
+Qwen/Qwen2.5-0.5B-Instruct: 225/300 items, 133s
+Qwen/Qwen2.5-0.5B-Instruct: 250/300 items, 148s
+Qwen/Qwen2.5-0.5B-Instruct: 275/300 items, 163s
+Qwen/Qwen2.5-0.5B-Instruct: 300/300 items, 177s
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "items": 300,
+  "seconds": 177.2,
+  "dtype": "bfloat16",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 306,
+    "neutral": 59568,
+    "contradiction": 8222
+  },
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "python": "3.13.16",
+  "cpu_threads": 2
+}
+Qwen/Qwen2.5-1.5B-Instruct: 25/300 items, 37s
+Qwen/Qwen2.5-1.5B-Instruct: 50/300 items, 71s
+Qwen/Qwen2.5-1.5B-Instruct: 75/300 items, 103s
+Qwen/Qwen2.5-1.5B-Instruct: 100/300 items, 136s
+Qwen/Qwen2.5-1.5B-Instruct: 125/300 items, 168s
+Qwen/Qwen2.5-1.5B-Instruct: 150/300 items, 200s
+Qwen/Qwen2.5-1.5B-Instruct: 175/300 items, 233s
+Qwen/Qwen2.5-1.5B-Instruct: 200/300 items, 265s
+Qwen/Qwen2.5-1.5B-Instruct: 225/300 items, 295s
+Qwen/Qwen2.5-1.5B-Instruct: 250/300 items, 327s
+Qwen/Qwen2.5-1.5B-Instruct: 275/300 items, 359s
+Qwen/Qwen2.5-1.5B-Instruct: 300/300 items, 391s
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "items": 300,
+  "seconds": 391.0,
+  "dtype": "bfloat16",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 306,
+    "neutral": 59568,
+    "contradiction": 8222
+  },
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "python": "3.13.16",
+  "cpu_threads": 2
+}
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 25/300 items, 41s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 50/300 items, 78s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 75/300 items, 119s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 100/300 items, 161s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 125/300 items, 201s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 150/300 items, 241s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 175/300 items, 278s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 200/300 items, 317s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 225/300 items, 355s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 250/300 items, 393s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 275/300 items, 431s
+HuggingFaceTB/SmolLM2-1.7B-Instruct: 300/300 items, 467s
+{
+  "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+  "items": 300,
+  "seconds": 466.7,
+  "dtype": "bfloat16",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 293,
+    "neutral": 30627,
+    "contradiction": 2651
+  },
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "python": "3.13.16",
+  "cpu_threads": 2
+}

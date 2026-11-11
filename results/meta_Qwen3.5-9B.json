@@ -1,0 +1,23 @@
+{
+  "model": "Qwen/Qwen3.5-9B",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 741.1,
+  "dtype": "bfloat16",
+  "quantization": "4bit",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_offloaded_modules": [
+    "model.language_model.embed_tokens"
+  ],
+  "peak_vram_gb": 5.63,
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 305,
+    "neutral": 57555,
+    "contradiction": 7965
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

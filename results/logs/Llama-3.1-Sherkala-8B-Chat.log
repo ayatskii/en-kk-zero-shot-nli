@@ -1,0 +1,46 @@
+[transformers] `rope_parameters`'s original_max_position_embeddings field must be less than max_position_embeddings, got 8192 and max_position_embeddings=8192
+[transformers] `rope_parameters`'s original_max_position_embeddings field must be less than max_position_embeddings, got 8192 and max_position_embeddings=8192
+[transformers] `rope_parameters`'s original_max_position_embeddings field must be less than max_position_embeddings, got 8192 and max_position_embeddings=8192
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [22:29<2:14:58, 1349.76s/it]Fetching 7 files:  29%|██▊       | 2/7 [24:36<52:32, 630.51s/it]   Fetching 7 files:  43%|████▎     | 3/7 [24:51<23:16, 349.21s/it]Fetching 7 files:  57%|█████▋    | 4/7 [24:55<10:39, 213.05s/it]Fetching 7 files:  71%|███████▏  | 5/7 [24:58<04:34, 137.28s/it]Fetching 7 files:  86%|████████▌ | 6/7 [25:00<01:31, 91.25s/it] Fetching 7 files: 100%|██████████| 7/7 [25:04<00:00, 62.67s/it]Fetching 7 files: 100%|██████████| 7/7 [25:04<00:00, 214.89s/it]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<03:39,  1.32it/s]Loading weights:   1%|          | 2/291 [00:01<03:30,  1.38it/s]Loading weights:   1%|▏         | 4/291 [00:01<01:27,  3.28it/s]Loading weights:   2%|▏         | 6/291 [00:01<00:53,  5.29it/s]Loading weights:   4%|▍         | 13/291 [00:01<00:18, 14.84it/s]Loading weights:   6%|▌         | 17/291 [00:02<00:23, 11.72it/s]Loading weights:   8%|▊         | 22/291 [00:02<00:18, 14.73it/s]Loading weights:   9%|▊         | 25/291 [00:02<00:18, 14.32it/s]Loading weights:  11%|█         | 31/291 [00:02<00:14, 17.41it/s]Loading weights:  12%|█▏        | 34/291 [00:03<00:15, 16.44it/s]Loading weights:  14%|█▎        | 40/291 [00:03<00:11, 21.05it/s]Loading weights:  15%|█▍        | 43/291 [00:03<00:12, 19.16it/s]Loading weights:  17%|█▋        | 49/291 [00:03<00:10, 22.58it/s]Loading weights:  18%|█▊        | 52/291 [00:03<00:12, 19.37it/s]Loading weights:  20%|█▉        | 58/291 [00:04<00:09, 24.04it/s]Loading weights:  21%|██        | 61/291 [00:04<00:14, 15.78it/s]Loading weights:  23%|██▎       | 67/291 [00:04<00:11, 18.88it/s]Loading weights:  24%|██▍       | 70/291 [00:04<00:12, 17.81it/s]Loading weights:  26%|██▌       | 76/291 [00:05<00:09, 22.07it/s]Loading weights:  27%|██▋       | 79/291 [00:05<00:10, 20.55it/s]Loading weights:  29%|██▉       | 85/291 [00:05<00:08, 25.10it/s]Loading weights:  30%|███       | 88/291 [00:05<00:08, 22.65it/s]Loading weights:  32%|███▏      | 94/291 [00:05<00:07, 26.94it/s]Loading weights:  33%|███▎      | 97/291 [00:05<00:08, 23.80it/s]Loading weights:  35%|███▌      | 103/291 [00:06<00:06, 28.44it/s]Loading weights:  37%|███▋      | 107/291 [00:06<00:06, 27.05it/s]Loading weights:  38%|███▊      | 112/291 [00:06<00:06, 29.26it/s]Loading weights:  40%|███▉      | 116/291 [00:06<00:06, 27.08it/s]Loading weights:  42%|████▏     | 121/291 [00:06<00:05, 28.69it/s]Loading weights:  43%|████▎     | 124/291 [00:06<00:06, 24.81it/s]Loading weights:  45%|████▍     | 130/291 [00:07<00:06, 23.91it/s]Loading weights:  46%|████▌     | 133/291 [00:07<00:08, 19.36it/s]Loading weights:  48%|████▊     | 139/291 [00:07<00:06, 22.35it/s]Loading weights:  49%|████▉     | 142/291 [00:07<00:07, 20.20it/s]Loading weights:  51%|█████     | 148/291 [00:08<00:05, 24.55it/s]Loading weights:  52%|█████▏    | 151/291 [00:08<00:06, 21.90it/s]Loading weights:  54%|█████▍    | 157/291 [00:08<00:05, 25.62it/s]Loading weights:  55%|█████▍    | 160/291 [00:08<00:05, 22.09it/s]Loading weights:  57%|█████▋    | 166/291 [00:08<00:04, 25.11it/s]Loading weights:  58%|█████▊    | 169/291 [00:08<00:05, 21.27it/s]Loading weights:  60%|██████    | 175/291 [00:09<00:04, 25.44it/s]Loading weights:  61%|██████    | 178/291 [00:09<00:05, 19.26it/s]Loading weights:  63%|██████▎   | 184/291 [00:09<00:04, 23.84it/s]Loading weights:  64%|██████▍   | 187/291 [00:09<00:05, 18.96it/s]Loading weights:  66%|██████▋   | 193/291 [00:10<00:04, 20.97it/s]Loading weights:  67%|██████▋   | 196/291 [00:10<00:05, 18.73it/s]Loading weights:  69%|██████▉   | 202/291 [00:10<00:03, 22.56it/s]Loading weights:  70%|███████   | 205/291 [00:10<00:04, 20.89it/s]Loading weights:  73%|███████▎  | 211/291 [00:10<00:03, 25.71it/s]Loading weights:  74%|███████▎  | 214/291 [00:11<00:03, 23.21it/s]Loading weights:  76%|███████▌  | 220/291 [00:11<00:02, 27.85it/s]Loading weights:  77%|███████▋  | 223/291 [00:11<00:02, 24.49it/s]Loading weights:  79%|███████▊  | 229/291 [00:11<00:02, 28.19it/s]Loading weights:  80%|███████▉  | 232/291 [00:11<00:02, 25.02it/s]Loading weights:  82%|████████▏ | 238/291 [00:11<00:01, 29.56it/s]Loading weights:  83%|████████▎ | 242/291 [00:11<00:01, 26.97it/s]Loading weights:  85%|████████▍ | 247/291 [00:12<00:01, 28.69it/s]Loading weights:  86%|████████▌ | 250/291 [00:12<00:02, 19.28it/s]Loading weights:  88%|████████▊ | 256/291 [00:12<00:01, 21.34it/s]Loading weights:  89%|████████▉ | 259/291 [00:12<00:01, 18.68it/s]Loading weights:  91%|█████████ | 265/291 [00:13<00:01, 23.25it/s]Loading weights:  92%|█████████▏| 268/291 [00:13<00:01, 21.05it/s]Loading weights:  94%|█████████▍| 274/291 [00:13<00:00, 24.87it/s]Loading weights:  95%|█████████▌| 277/291 [00:13<00:00, 21.60it/s]Loading weights:  97%|█████████▋| 283/291 [00:13<00:00, 25.43it/s]Loading weights:  98%|█████████▊| 286/291 [00:14<00:00, 21.46it/s]Loading weights: 100%|██████████| 291/291 [00:14<00:00, 20.61it/s]
+prompt tail: 'r with exactly one word: entailment, neutral, or contradiction.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n'
+inception42/Llama-3.1-Sherkala-8B-Chat: 100/1968 items, 27s
+inception42/Llama-3.1-Sherkala-8B-Chat: 200/1968 items, 54s
+inception42/Llama-3.1-Sherkala-8B-Chat: 300/1968 items, 81s
+inception42/Llama-3.1-Sherkala-8B-Chat: 400/1968 items, 108s
+inception42/Llama-3.1-Sherkala-8B-Chat: 500/1968 items, 136s
+inception42/Llama-3.1-Sherkala-8B-Chat: 600/1968 items, 164s
+inception42/Llama-3.1-Sherkala-8B-Chat: 700/1968 items, 191s
+inception42/Llama-3.1-Sherkala-8B-Chat: 800/1968 items, 219s
+inception42/Llama-3.1-Sherkala-8B-Chat: 900/1968 items, 248s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1000/1968 items, 276s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1100/1968 items, 303s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1200/1968 items, 330s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1300/1968 items, 359s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1400/1968 items, 387s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1500/1968 items, 414s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1600/1968 items, 442s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1700/1968 items, 469s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1800/1968 items, 497s
+inception42/Llama-3.1-Sherkala-8B-Chat: 1900/1968 items, 526s
+{
+  "model": "inception42/Llama-3.1-Sherkala-8B-Chat",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 544.5,
+  "dtype": "bfloat16",
+  "quantization": "4bit",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_offloaded_modules": [],
+  "peak_vram_gb": 5.95,
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 306,
+    "neutral": 60668,
+    "contradiction": 8386
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

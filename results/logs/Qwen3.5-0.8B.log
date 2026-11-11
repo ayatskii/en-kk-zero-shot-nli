@@ -1,0 +1,42 @@
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights:   0%|          | 1/473 [00:00<01:24,  5.57it/s]Loading weights:  15%|█▌        | 71/473 [00:00<00:01, 311.74it/s]Loading weights:  30%|███       | 144/473 [00:00<00:00, 473.35it/s]Loading weights:  47%|████▋     | 220/473 [00:00<00:00, 573.71it/s]Loading weights:  65%|██████▍   | 306/473 [00:00<00:00, 668.66it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 696.07it/s]
+prompt tail: 'Answer with exactly one word: entailment, neutral, or contradiction.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Qwen/Qwen3.5-0.8B: 100/1968 items, 7s
+Qwen/Qwen3.5-0.8B: 200/1968 items, 13s
+Qwen/Qwen3.5-0.8B: 300/1968 items, 19s
+Qwen/Qwen3.5-0.8B: 400/1968 items, 25s
+Qwen/Qwen3.5-0.8B: 500/1968 items, 32s
+Qwen/Qwen3.5-0.8B: 600/1968 items, 38s
+Qwen/Qwen3.5-0.8B: 700/1968 items, 44s
+Qwen/Qwen3.5-0.8B: 800/1968 items, 51s
+Qwen/Qwen3.5-0.8B: 900/1968 items, 57s
+Qwen/Qwen3.5-0.8B: 1000/1968 items, 63s
+Qwen/Qwen3.5-0.8B: 1100/1968 items, 70s
+Qwen/Qwen3.5-0.8B: 1200/1968 items, 76s
+Qwen/Qwen3.5-0.8B: 1300/1968 items, 83s
+Qwen/Qwen3.5-0.8B: 1400/1968 items, 89s
+Qwen/Qwen3.5-0.8B: 1500/1968 items, 96s
+Qwen/Qwen3.5-0.8B: 1600/1968 items, 102s
+Qwen/Qwen3.5-0.8B: 1700/1968 items, 108s
+Qwen/Qwen3.5-0.8B: 1800/1968 items, 115s
+Qwen/Qwen3.5-0.8B: 1900/1968 items, 121s
+{
+  "model": "Qwen/Qwen3.5-0.8B",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 125.3,
+  "dtype": "bfloat16",
+  "quantization": "none (bf16)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 305,
+    "neutral": 57555,
+    "contradiction": 7965
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

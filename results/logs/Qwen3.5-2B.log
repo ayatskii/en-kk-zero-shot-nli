@@ -1,0 +1,42 @@
+Loading weights:   0%|          | 0/617 [00:00<?, ?it/s]Loading weights:   0%|          | 1/617 [00:00<02:14,  4.57it/s]Loading weights:  19%|█▉        | 118/617 [00:00<00:01, 463.01it/s]Loading weights:  37%|███▋      | 226/617 [00:00<00:00, 683.77it/s]Loading weights:  61%|██████    | 375/617 [00:00<00:00, 954.84it/s]Loading weights: 100%|██████████| 617/617 [00:00<00:00, 1043.95it/s]
+prompt tail: 'Answer with exactly one word: entailment, neutral, or contradiction.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n'
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+Qwen/Qwen3.5-2B: 100/1968 items, 8s
+Qwen/Qwen3.5-2B: 200/1968 items, 16s
+Qwen/Qwen3.5-2B: 300/1968 items, 24s
+Qwen/Qwen3.5-2B: 400/1968 items, 33s
+Qwen/Qwen3.5-2B: 500/1968 items, 41s
+Qwen/Qwen3.5-2B: 600/1968 items, 50s
+Qwen/Qwen3.5-2B: 700/1968 items, 58s
+Qwen/Qwen3.5-2B: 800/1968 items, 66s
+Qwen/Qwen3.5-2B: 900/1968 items, 75s
+Qwen/Qwen3.5-2B: 1000/1968 items, 83s
+Qwen/Qwen3.5-2B: 1100/1968 items, 93s
+Qwen/Qwen3.5-2B: 1200/1968 items, 101s
+Qwen/Qwen3.5-2B: 1300/1968 items, 111s
+Qwen/Qwen3.5-2B: 1400/1968 items, 119s
+Qwen/Qwen3.5-2B: 1500/1968 items, 128s
+Qwen/Qwen3.5-2B: 1600/1968 items, 137s
+Qwen/Qwen3.5-2B: 1700/1968 items, 145s
+Qwen/Qwen3.5-2B: 1800/1968 items, 154s
+Qwen/Qwen3.5-2B: 1900/1968 items, 162s
+{
+  "model": "Qwen/Qwen3.5-2B",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 168.1,
+  "dtype": "bfloat16",
+  "quantization": "none (bf16)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 305,
+    "neutral": 57555,
+    "contradiction": 7965
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

@@ -1,0 +1,45 @@
+Loading weights:   0%|          | 0/2076 [00:00<?, ?it/s]Loading weights:   5%|▍         | 96/2076 [00:00<00:02, 849.37it/s]Loading weights:  13%|█▎        | 262/2076 [00:00<00:01, 1301.57it/s]Loading weights:  22%|██▏       | 460/2076 [00:00<00:01, 1602.16it/s]Loading weights:  32%|███▏      | 669/2076 [00:00<00:00, 1771.45it/s]Loading weights:  41%|████      | 848/2076 [00:01<00:02, 411.61it/s] Loading weights:  47%|████▋     | 969/2076 [00:02<00:03, 309.31it/s]Loading weights:  51%|█████     | 1055/2076 [00:02<00:03, 268.57it/s]Loading weights:  54%|█████▍    | 1119/2076 [00:02<00:03, 245.74it/s]Loading weights:  56%|█████▋    | 1168/2076 [00:03<00:03, 227.17it/s]Loading weights:  58%|█████▊    | 1207/2076 [00:03<00:03, 219.68it/s]Loading weights:  60%|█████▉    | 1240/2076 [00:03<00:04, 195.33it/s]Loading weights:  61%|██████    | 1267/2076 [00:03<00:04, 188.04it/s]Loading weights:  62%|██████▏   | 1291/2076 [00:04<00:04, 194.00it/s]Loading weights:  63%|██████▎   | 1315/2076 [00:04<00:04, 180.51it/s]Loading weights:  64%|██████▍   | 1336/2076 [00:04<00:04, 167.82it/s]Loading weights:  66%|██████▌   | 1362/2076 [00:04<00:04, 178.18it/s]Loading weights:  67%|██████▋   | 1382/2076 [00:04<00:03, 175.40it/s]Loading weights:  68%|██████▊   | 1404/2076 [00:04<00:03, 174.98it/s]Loading weights:  69%|██████▊   | 1423/2076 [00:05<00:05, 119.14it/s]Loading weights:  72%|███████▏  | 1501/2076 [00:05<00:02, 235.77it/s]Loading weights:  78%|███████▊  | 1621/2076 [00:05<00:01, 424.84it/s]Loading weights:  82%|████████▏ | 1709/2076 [00:05<00:00, 509.29it/s]Loading weights:  96%|█████████▌| 1996/2076 [00:05<00:00, 1059.08it/s]Loading weights: 100%|██████████| 2076/2076 [00:05<00:00, 377.65it/s] 
+Some parameters are on the meta device because they were offloaded to the cpu.
+prompt tail: 'ntradict it, or is it neutral? Answer with exactly one word: entailment, neutral, or contradiction.<turn|>\n<|turn>model\n'
+google/gemma-4-E4B-it: 100/1968 items, 24s
+google/gemma-4-E4B-it: 200/1968 items, 45s
+google/gemma-4-E4B-it: 300/1968 items, 67s
+google/gemma-4-E4B-it: 400/1968 items, 89s
+google/gemma-4-E4B-it: 500/1968 items, 111s
+google/gemma-4-E4B-it: 600/1968 items, 135s
+google/gemma-4-E4B-it: 700/1968 items, 156s
+google/gemma-4-E4B-it: 800/1968 items, 178s
+google/gemma-4-E4B-it: 900/1968 items, 202s
+google/gemma-4-E4B-it: 1000/1968 items, 224s
+google/gemma-4-E4B-it: 1100/1968 items, 247s
+google/gemma-4-E4B-it: 1200/1968 items, 270s
+google/gemma-4-E4B-it: 1300/1968 items, 294s
+google/gemma-4-E4B-it: 1400/1968 items, 317s
+google/gemma-4-E4B-it: 1500/1968 items, 340s
+google/gemma-4-E4B-it: 1600/1968 items, 362s
+google/gemma-4-E4B-it: 1700/1968 items, 384s
+google/gemma-4-E4B-it: 1800/1968 items, 407s
+google/gemma-4-E4B-it: 1900/1968 items, 430s
+{
+  "model": "google/gemma-4-E4B-it",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 445.3,
+  "dtype": "bfloat16",
+  "quantization": "4bit",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_offloaded_modules": [
+    "model.language_model.embed_tokens_per_layer"
+  ],
+  "peak_vram_gb": 3.51,
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 533,
+    "neutral": 45258,
+    "contradiction": 226770
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

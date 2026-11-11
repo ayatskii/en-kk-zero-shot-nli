@@ -1,0 +1,23 @@
+/home/ayatskii/Downloads/a3_pipeline_code_and_results/a3_pipeline/.venv/lib/python3.14/site-packages/torch/jit/_script.py:1485: FutureWarning: `torch.jit.script` is not supported in Python 3.14+ and may break. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|██████████| 202/202 [00:00<00:00, 2349.49it/s]
+MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7: en done, 3s
+MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7: kk done, 6s
+{
+  "model": "MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7",
+  "backend": "transformers (NLI classifier)",
+  "items": 1968,
+  "seconds": 6.2,
+  "dtype": "float32",
+  "quantization": "none (fp32)",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "decoding": "argmax over NLI classification head (deterministic)",
+  "id2label": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7"
+}

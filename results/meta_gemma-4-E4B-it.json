@@ -1,0 +1,23 @@
+{
+  "model": "google/gemma-4-E4B-it",
+  "backend": "transformers",
+  "items": 1968,
+  "seconds": 445.3,
+  "dtype": "bfloat16",
+  "quantization": "4bit",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_offloaded_modules": [
+    "model.language_model.embed_tokens_per_layer"
+  ],
+  "peak_vram_gb": 3.51,
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 533,
+    "neutral": 45258,
+    "contradiction": 226770
+  },
+  "torch": "2.14.1+cu130",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 6
+}

@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "items": 300,
+  "seconds": 195.0,
+  "dtype": "bfloat16",
+  "decoding": "constrained first-token argmax (deterministic)",
+  "label_first_token_ids": {
+    "entailment": 306,
+    "neutral": 59568,
+    "contradiction": 8222
+  },
+  "torch": "2.14.1+cpu",
+  "transformers": "5.20.2",
+  "python": "3.14.7",
+  "cpu_threads": 2
+}

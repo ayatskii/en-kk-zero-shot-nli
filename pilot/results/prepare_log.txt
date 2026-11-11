@@ -1,0 +1,33 @@
+{
+  "source_file": "data/xnli.test.kk.csv",
+  "items_in_source": 2000,
+  "label_distribution_source": {
+    "neutral": 671,
+    "entailment": 670,
+    "contradiction": 659
+  },
+  "flagged_low_cyrillic": 32,
+  "flagged_length_outlier": 0,
+  "flagged_untranslated": 0,
+  "excluded_total": 32,
+  "eligible_after_exclusion": 1968,
+  "pilot_sample_size": 300,
+  "pilot_label_distribution": {
+    "contradiction": 100,
+    "neutral": 100,
+    "entailment": 100
+  },
+  "mean_len_ratio_kk_over_en_chars": 1.002,
+  "mean_words_en": 27.38,
+  "mean_words_kk": 20.88,
+  "seed": 42
+}
+     xnli_id                                                                                                                           premise_kk                                                                 hypothesis_kk  kk_cyr_ratio  len_ratio
+18        41                                                                 Бүгін ол бізбен Үшінші SS, U2 Quick және Blackbird туралы сөйлеседі.                                                    Ол үш нәрсе туралы айтады.      0.776316   0.846847
+452     1138  Мексика халық музыкасының контекстінде la cancien ranchera - бұл қарапайым халық, ауылдық жерлердегі шаруалар айтатын махаббат әні.                           La cancien rancheras әнін негізінен әйелдер айтады.      0.775641   1.000000
+555     1432                                       Сонда ел абуэло: Pues que recen y se acuesten (Жарайды, олар дұға етіп, төсекке кетсін) дейді.                                   Біз ұйықтар алдында дұға етуіміз керек еді.      0.788991   1.037879
+556     1433                                       Сонда ел абуэло: Pues que recen y se acuesten (Жарайды, олар дұға етіп, төсекке кетсін) дейді.                              Ұйықтар алдында 10 минут дұға етуіміз керек еді.      0.792793   1.000000
+797     2010                                                                                          Canal Motorboats BV-ның қалада екі орны бар  Осы қаладағы Canal Motorboats BV дилерлерінің барлығы дүкенді жауып тастады.      0.666667   0.983471
+798     2011                                                                                          Canal Motorboats BV-ның қалада екі орны бар       Бұл қалада Canal Motorboats BV компаниясының екі дилерлік орталығы бар.      0.649485   1.017857
+877     2203                                     Жергілікті саяхаттар үшін кішірек қайықтарды Sea Horse Boat Rentals, Marsh Harbour, Abacos (Тел.                                        Сіз шағын қайықтарды жалға ала аласыз.      0.669643   1.072000
+878     2204                                     Жергілікті саяхаттар үшін кішірек қайықтарды Sea Horse Boat Rentals, Marsh Harbour, Abacos (Тел.                                         Сіз бір адамдық қайықты жалға аласыз.      0.666667   1.007576

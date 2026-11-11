@@ -1,0 +1,63 @@
+model: /home/ayatskii/.cache/huggingface/hub/models--unsloth--Qwen3-30B-A3B-Instruct-2507-GGUF/snapshots/eea7b2be5805a5f151f8847ede8e5f9a9284bf77/Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf | output name: Qwen3-30B-A3B-Instruct-2507-Q4_K_M | mode: score
+prompt tail: 'se entail the hypothesis, contradict it, or is it neutral? Answer with exactly one word: entailment, neutral, or contradiction.<|im_end|>\n<|im_start|>assistant\n'
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 50/1968 items, 72s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 100/1968 items, 137s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 150/1968 items, 201s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 200/1968 items, 268s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 250/1968 items, 343s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 300/1968 items, 696s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 350/1968 items, 1162s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 400/1968 items, 1633s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 450/1968 items, 2111s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 500/1968 items, 2621s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 550/1968 items, 3156s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 600/1968 items, 3685s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 650/1968 items, 4217s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 700/1968 items, 4747s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 750/1968 items, 5279s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 800/1968 items, 5816s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 850/1968 items, 6365s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 900/1968 items, 6912s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 950/1968 items, 7458s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1000/1968 items, 8005s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1050/1968 items, 8553s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1100/1968 items, 9103s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1150/1968 items, 9654s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1200/1968 items, 10205s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1250/1968 items, 10756s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1300/1968 items, 11308s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1350/1968 items, 11858s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1400/1968 items, 12408s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1450/1968 items, 12958s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1500/1968 items, 13508s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1550/1968 items, 14058s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1600/1968 items, 14606s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1650/1968 items, 15156s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1700/1968 items, 15704s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1750/1968 items, 16250s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1800/1968 items, 16799s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1850/1968 items, 17348s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1900/1968 items, 17894s
+Qwen3-30B-A3B-Instruct-2507-Q4_K_M: 1950/1968 items, 18439s
+{
+  "model": "/home/ayatskii/.cache/huggingface/hub/models--unsloth--Qwen3-30B-A3B-Instruct-2507-GGUF/snapshots/eea7b2be5805a5f151f8847ede8e5f9a9284bf77/Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf",
+  "backend": "llama.cpp (llama-server)",
+  "items": 1968,
+  "seconds": 18637.6,
+  "quantization": "Q4_K_M",
+  "mode": "score",
+  "harmony_final_prefill": false,
+  "decoding": "constrained first-token argmax over server log-probs (deterministic)",
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "reasoning_effort": "low"
+  },
+  "label_first_token_ids": {
+    "entailment": 306,
+    "neutral": 59568,
+    "contradiction": 8222
+  },
+  "server_build": "b1-9febe63",
+  "python": "3.14.7",
+  "items_with_label_outside_top_n": 44
+}

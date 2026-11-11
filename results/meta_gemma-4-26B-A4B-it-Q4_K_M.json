@@ -1,0 +1,22 @@
+{
+  "model": "/home/ayatskii/.cache/huggingface/hub/models--bartowski--google_gemma-4-26B-A4B-it-GGUF/snapshots/10f3b41bcf8d3047f4e136e7197ffc2dd1654c9d/google_gemma-4-26B-A4B-it-Q4_K_M.gguf",
+  "backend": "llama.cpp (llama-server)",
+  "items": 1968,
+  "seconds": 26121.4,
+  "quantization": "Q4_K_M",
+  "mode": "score",
+  "harmony_final_prefill": false,
+  "decoding": "constrained first-token argmax over server log-probs (deterministic)",
+  "chat_template_kwargs": {
+    "enable_thinking": false,
+    "reasoning_effort": "low"
+  },
+  "label_first_token_ids": {
+    "entailment": 533,
+    "neutral": 45258,
+    "contradiction": 226770
+  },
+  "server_build": "b1-9febe63",
+  "python": "3.14.7",
+  "items_with_label_outside_top_n": 648
+}

@@ -1,0 +1,264 @@
+                model  acc_en  acc_kk   gap       gap_CI95  F1_en  F1_kk  b_EN_only  c_KK_only  McNemar_p  fert_en  fert_kk
+Qwen2.5-0.5B-Instruct   0.643   0.300 0.343 [0.277, 0.413]  0.646  0.260        123         20        0.0    1.254    4.681
+Qwen2.5-1.5B-Instruct   0.747   0.427 0.320 [0.260, 0.380]  0.726  0.410        108         12        0.0    1.254    4.681
+SmolLM2-1.7B-Instruct   0.437   0.333 0.103 [0.057, 0.153]  0.373  0.206         43         12        0.0    1.271    6.889
+{
+ "Qwen2.5-0.5B-Instruct": {
+  "acc_en": 0.6433333333333333,
+  "macroF1_en": 0.6457186524277314,
+  "perclassF1_en": {
+   "entailment": 0.632,
+   "neutral": 0.589,
+   "contradiction": 0.716
+  },
+  "pred_dist_en": {
+   "entailment": 55,
+   "neutral": 141,
+   "contradiction": 104
+  },
+  "confusion_en": [
+   [
+    49,
+    44,
+    7
+   ],
+   [
+    5,
+    71,
+    24
+   ],
+   [
+    1,
+    26,
+    73
+   ]
+  ],
+  "mean_fertility_en": 1.2543434176841965,
+  "mean_tokens_en": 33.45666666666666,
+  "acc_kk": 0.3,
+  "macroF1_kk": 0.2598832611175008,
+  "perclassF1_kk": {
+   "entailment": 0.089,
+   "neutral": 0.3,
+   "contradiction": 0.391
+  },
+  "pred_dist_kk": {
+   "entailment": 12,
+   "neutral": 127,
+   "contradiction": 161
+  },
+  "confusion_kk": [
+   [
+    5,
+    46,
+    49
+   ],
+   [
+    5,
+    34,
+    61
+   ],
+   [
+    2,
+    47,
+    51
+   ]
+  ],
+  "mean_fertility_kk": 4.6806655575759635,
+  "mean_tokens_kk": 95.04,
+  "acc_gap": 0.3433333333333333,
+  "macroF1_gap": 0.3858353913102306,
+  "acc_gap_CI95": [
+   0.2766666666666666,
+   0.4133333333333333
+  ],
+  "mcnemar_b_en_only": 123,
+  "mcnemar_c_kk_only": 20,
+  "mcnemar_p_two_sided": 2.7836541327264805e-19,
+  "mcnemar_p_one_sided_en_better": 1.3918270663632403e-19,
+  "cross_lingual_prediction_agreement": 0.41,
+  "flip_rate_given_en_correct": 0.6373056994818653,
+  "flip_vs_kept_mean_word_len_kk": [
+   6.477774708390198,
+   6.643436523149239
+  ],
+  "flip_vs_kept_fertility_kk": [
+   4.620732472417869,
+   4.700721836224558
+  ],
+  "mannwhitney_p_word_len": 0.20969039382360433,
+  "mannwhitney_p_fertility": 0.3614026546465564
+ },
+ "Qwen2.5-1.5B-Instruct": {
+  "acc_en": 0.7466666666666667,
+  "macroF1_en": 0.7261443159225577,
+  "perclassF1_en": {
+   "entailment": 0.789,
+   "neutral": 0.575,
+   "contradiction": 0.814
+  },
+  "pred_dist_en": {
+   "entailment": 123,
+   "neutral": 46,
+   "contradiction": 131
+  },
+  "confusion_en": [
+   [
+    88,
+    1,
+    11
+   ],
+   [
+    32,
+    42,
+    26
+   ],
+   [
+    3,
+    3,
+    94
+   ]
+  ],
+  "mean_fertility_en": 1.2543434176841965,
+  "mean_tokens_en": 33.45666666666666,
+  "acc_kk": 0.4266666666666667,
+  "macroF1_kk": 0.40998292321043645,
+  "perclassF1_kk": {
+   "entailment": 0.502,
+   "neutral": 0.299,
+   "contradiction": 0.429
+  },
+  "pred_dist_kk": {
+   "entailment": 143,
+   "neutral": 47,
+   "contradiction": 110
+  },
+  "confusion_kk": [
+   [
+    61,
+    11,
+    28
+   ],
+   [
+    41,
+    22,
+    37
+   ],
+   [
+    41,
+    14,
+    45
+   ]
+  ],
+  "mean_fertility_kk": 4.6806655575759635,
+  "mean_tokens_kk": 95.04,
+  "acc_gap": 0.32,
+  "macroF1_gap": 0.31616139271212124,
+  "acc_gap_CI95": [
+   0.25999999999999995,
+   0.38000000000000006
+  ],
+  "mcnemar_b_en_only": 108,
+  "mcnemar_c_kk_only": 12,
+  "mcnemar_p_two_sided": 1.780126472841153e-20,
+  "mcnemar_p_one_sided_en_better": 8.900632364205765e-21,
+  "cross_lingual_prediction_agreement": 0.5133333333333333,
+  "flip_rate_given_en_correct": 0.48214285714285715,
+  "flip_vs_kept_mean_word_len_kk": [
+   6.611537801959509,
+   6.497937923893676
+  ],
+  "flip_vs_kept_fertility_kk": [
+   4.698284968771636,
+   4.664835956960244
+  ],
+  "mannwhitney_p_word_len": 0.3536844600459522,
+  "mannwhitney_p_fertility": 0.6550768030280674
+ },
+ "SmolLM2-1.7B-Instruct": {
+  "acc_en": 0.43666666666666665,
+  "macroF1_en": 0.37278873761229975,
+  "perclassF1_en": {
+   "entailment": 0.18,
+   "neutral": 0.328,
+   "contradiction": 0.61
+  },
+  "pred_dist_en": {
+   "entailment": 22,
+   "neutral": 83,
+   "contradiction": 195
+  },
+  "confusion_en": [
+   [
+    11,
+    43,
+    46
+   ],
+   [
+    11,
+    30,
+    59
+   ],
+   [
+    0,
+    10,
+    90
+   ]
+  ],
+  "mean_fertility_en": 1.270605378329709,
+  "mean_tokens_en": 33.84,
+  "acc_kk": 0.3333333333333333,
+  "macroF1_kk": 0.20590651053591805,
+  "perclassF1_kk": {
+   "entailment": 0.0,
+   "neutral": 0.132,
+   "contradiction": 0.485
+  },
+  "pred_dist_kk": {
+   "entailment": 0,
+   "neutral": 21,
+   "contradiction": 279
+  },
+  "confusion_kk": [
+   [
+    0,
+    5,
+    95
+   ],
+   [
+    0,
+    8,
+    92
+   ],
+   [
+    0,
+    8,
+    92
+   ]
+  ],
+  "mean_fertility_kk": 6.888774487913346,
+  "mean_tokens_kk": 139.99666666666667,
+  "acc_gap": 0.10333333333333333,
+  "macroF1_gap": 0.1668822270763817,
+  "acc_gap_CI95": [
+   0.0566666666666667,
+   0.15333333333333332
+  ],
+  "mcnemar_b_en_only": 43,
+  "mcnemar_c_kk_only": 12,
+  "mcnemar_p_two_sided": 3.3053764732060564e-05,
+  "mcnemar_p_one_sided_en_better": 1.6526882366030282e-05,
+  "cross_lingual_prediction_agreement": 0.6366666666666667,
+  "flip_rate_given_en_correct": 0.3282442748091603,
+  "flip_vs_kept_mean_word_len_kk": [
+   6.6842428637543785,
+   6.550532017266769
+  ],
+  "flip_vs_kept_fertility_kk": [
+   7.023993928539336,
+   6.897768280734376
+  ],
+  "mannwhitney_p_word_len": 0.49102785864808063,
+  "mannwhitney_p_fertility": 0.46668231292830076
+ }
+}
