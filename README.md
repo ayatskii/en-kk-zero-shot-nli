@@ -1,5 +1,6 @@
 # Zero-shot cross-lingual transfer EN→KK on NLI (Baurzhanova, Mergenbay, SE-2416)
-RMT course project, Assignments 3–4. Release tag for Assignment 4: `assignment-4`.
+RMT course project, Assignments 3–4 and final project. Release tags: `assignment-4` (Assignment 4) and
+`final` (version cited in the final manuscript; identical code, data and predictions).
 
 **Purpose.** Measure how much zero-shot NLI accuracy open LLMs lose when the same XNLI items are
 given in Kazakh instead of English (13 LLMs, a supervised NLI baseline and a majority baseline;
